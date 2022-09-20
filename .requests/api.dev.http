@@ -1,0 +1,12 @@
+@url=http://localhost:3000
+
+### Pub message
+POST {{url}}/producer
+Content-Type: application/json
+
+{
+  "id": "1",
+  "body": { "message": "mi mensaje" }
+
+}
+
